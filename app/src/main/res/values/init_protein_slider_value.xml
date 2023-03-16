@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="init_protein_slider_value">
+        <item>0.0</item>
+        <item>16.0</item>
+    </array>
+</resources>

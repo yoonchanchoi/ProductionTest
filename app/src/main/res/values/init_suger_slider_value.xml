@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="init_sugar_slider_value">
+        <item>0.0</item>
+        <item>79.0</item>
+    </array>
+</resources>
