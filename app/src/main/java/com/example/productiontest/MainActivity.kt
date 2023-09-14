@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity(), FilterFragment.SendEventListener {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//        mainViewMode = ViewModelProvider(this).get(MainViewModel::class.java)
-//        initialize()
+        mainViewMode = ViewModelProvider(this).get(MainViewModel::class.java)
+        initialize()
 
-        Solution().solution("hello", 3)
+//        Solution().solution("hello", 3)
     }
 
     override fun onResume() {
